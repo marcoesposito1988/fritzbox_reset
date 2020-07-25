@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "fritzbox-reset"
+version = "0.0.1"
+description = "Script to reset a FRITZ!Box modem/router configuration"
+authors = ["Marco Esposito <marcoesposito1988@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+[tool.poetry.dev-dependencies]
+requests = "^2.19"
+beautifulsoup4 = "^4.6"
+docopt = "^0.6"
